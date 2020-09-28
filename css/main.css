@@ -44,4 +44,14 @@ body {
   -webkit-box-shadow: inset -22px 5px 0 7px rgba(0, 0, 0, 0.2);
           box-shadow: inset -22px 5px 0 7px rgba(0, 0, 0, 0.2);
 }
+
+.head::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background: white;
+  margin-top: 300px;
+  border: 10px solid black;
+}
 /*# sourceMappingURL=main.css.map */
